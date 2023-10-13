@@ -7,4 +7,8 @@ programmers 0단계
 function solution(a, b) {
     return Math.max(Number(`${a}${b}`), Number(`${b}${a}`))
 }
+
+
+👉이해력의 문제로 문제가 이해안됨
+18.js
 ```
