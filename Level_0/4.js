@@ -5,6 +5,6 @@ const rl = readline
     output: process.stdout,
   })
   .on("line", function (line) {
-    const Arr = line.split(" ");
-    console.log(Arr.join(""));
+    const strArr = line.split(" ");
+    console.log(strArr.join(""));
   });
