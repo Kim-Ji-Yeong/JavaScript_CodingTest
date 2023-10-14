@@ -15,5 +15,5 @@ function solution(str1, str2) {
 }
 
 👉이해력의 문제로 문제가 이해안됨
-18.js
+18.js "조건 문자열"
 ```
