@@ -33,8 +33,11 @@ function solution(num_list) {
     var even = num_list.filter(n => n % 2 === 0).reduce((acc, cur) => acc+cur, '');
     var odd = num_list.filter(n => n % 2 === 1).reduce((acc, cur) => acc+cur, '');
     return Number(even) + Number(odd);
-} //reduce를 정리한 벨로그글(https://velog.io/write?id=d9c89bd0-c695-462f-bb46-3bcb4d969dac)
+}
+```
+📄[reduce를 정리한 벨로그글](https://velog.io/write?id=d9c89bd0-c695-462f-bb46-3bcb4d969dac): 23.js 문제
 
+```javascript
 👉이해력의 문제로 문제가 이해안됨
 18.js "조건 문자열"
 ```
