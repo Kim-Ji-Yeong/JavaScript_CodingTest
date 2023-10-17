@@ -18,7 +18,22 @@ function solution(a, b) {
 22.js "문자열 겹쳐쓰기"
 function solution(my_string, overwrite_string, s) {    
     return my_string.slice(0,s)+overwrite_string+my_string.slice(s+overwrite_string.length)
-} 
+}
+
+23.js "이어 붙인 수"
+// 첫번 째 방법
+function solution(num_list) {
+    let sol = num_list.filter(el=>(el%2===1));
+    let sol2 = num_list.filter(el=>(el%2===0));
+    return Number(sol.join(''))+Number(sol2.join(''));
+}
+
+// 두번 째 방법
+function solution(num_list) {
+    var even = num_list.filter(n => n % 2 === 0).reduce((acc, cur) => acc+cur, '');
+    var odd = num_list.filter(n => n % 2 === 1).reduce((acc, cur) => acc+cur, '');
+    return Number(even) + Number(odd);
+}
 
 👉이해력의 문제로 문제가 이해안됨
 18.js "조건 문자열"
