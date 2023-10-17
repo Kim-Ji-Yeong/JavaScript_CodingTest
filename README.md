@@ -53,6 +53,12 @@ function solution(num_list) {
     ? 1
     : 0;
 }
+
+26.js "글자 이어 붙여 문자열 만들기"
+function solution(my_string, index_list) {
+   return index_list.map(i => my_string[i]).join('');
+}
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
