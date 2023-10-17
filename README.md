@@ -34,6 +34,25 @@ function solution(num_list) {
     var odd = num_list.filter(n => n % 2 === 1).reduce((acc, cur) => acc+cur, '');
     return Number(even) + Number(odd);
 }
+
+24.js "원소들의 곱과 합"
+// 첫번 째 방법
+function solution(num_list) {
+  return num_list.reduce((a, b) => a * b, 1) >
+    num_list.reduce((a, b) => a + b, 0) ** 2
+    ? 0
+    : 1;
+}
+
+// 두번 째 방법 Math.pow를 이용
+function solution(num_list) {
+  return Math.pow(
+    num_list.reduce((a, b) => a + b),
+    2
+  ) > num_list.reduce((a, b) => a * b)
+    ? 1
+    : 0;
+}
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
