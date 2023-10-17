@@ -35,7 +35,7 @@ function solution(num_list) {
     return Number(even) + Number(odd);
 }
 ```
-📄[reduce를 정리한 벨로그글](https://velog.io/write?id=d9c89bd0-c695-462f-bb46-3bcb4d969dac): 23.js 문제
+📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
 ```javascript
 👉이해력의 문제로 문제가 이해안됨
