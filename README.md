@@ -69,6 +69,11 @@ function solution(my_string, queries) {
   return str.join("");
 }
 
+29.js "중복된 숫자 개수"
+function solution(array, n) {
+    return array.filter((v) => v === n).length;
+}
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
