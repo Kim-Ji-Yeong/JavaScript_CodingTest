@@ -74,6 +74,15 @@ function solution(array, n) {
     return array.filter((v) => v === n).length;
 }
 
+31.js "두 수의 합"
+// 내가 푼 방식
+function solution(num1, num2) {
+  return num1 + num2;
+}
+
+// 더 짧게 쓰는 방식
+const solution = (num1, num2) => num1 + num2;
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
