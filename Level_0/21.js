@@ -5,3 +5,4 @@ function solution(start_num, end_num) {
   }
   return input;
 }
+22
