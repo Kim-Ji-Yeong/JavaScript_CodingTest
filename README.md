@@ -59,6 +59,16 @@ function solution(my_string, index_list) {
    return index_list.map(i => my_string[i]).join('');
 }
 
+👉27.js "문자열 여러 번 뒤집기"(해결하는데 오래걸림)
+function solution(my_string, queries) {
+  let str = my_string.split("");
+  queries.forEach(([start, end]) => {
+    const changeStr = str.slice(start, end + 1);
+    str.splice(start, changeStr.length, ...changeStr.reverse());
+  });
+  return str.join("");
+}
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
