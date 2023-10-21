@@ -74,7 +74,7 @@ function solution(array, n) {
     return array.filter((v) => v === n).length;
 }
 
-31.js "두 수의 합"(32,33,34 같은 방식 문제들)
+31.js "두 수의 합"(32,33,34 같은 방식 문제)
 // 내가 푼 방식
 function solution(num1, num2) {
   return num1 + num2;
