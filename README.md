@@ -87,6 +87,15 @@ const solution = (num1, num2) => num1 + num2;
 const solution = (num1,num2) => Math.trunc((num1/num2)*1000);
 👉trunc(소수점 이하 버릴 때)
 
+38.js "배열 두 배 만들기"
+// reduce 사용
+function solution(numbers) {
+    return numbers.reduce((a, b) => [...a, b * 2], []);
+}
+
+// map 사용
+const solution = (numbers) => numbers.map((number) => number * 2)
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
