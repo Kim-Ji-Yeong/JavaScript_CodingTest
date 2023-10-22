@@ -93,4 +93,8 @@ const solution = (num1,num2) => Math.trunc((num1/num2)*1000);
 ```javascript
 👉이해력의 문제로 문제가 이해안됨
 18.js "조건 문자열"
+
+👉나중에 다시 읽자 지금은 싫으니까
+37.js "분수의 덧셈"
+
 ```
