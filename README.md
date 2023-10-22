@@ -101,6 +101,7 @@ function solution(array) {
   return array.sort((a, b) => a - b)[Math.trunc(array.length / 2)];
 }
 
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
 
@@ -112,5 +113,9 @@ function solution(array) {
 
 👉나중에 다시 읽자 지금은 싫으니까
 37.js "분수의 덧셈"
+
+👉문제 풀이 나중에 다시 읽자 지금은 읽기 싫으니까
+41.js "최빈값 구하기"
+
 
 ```
