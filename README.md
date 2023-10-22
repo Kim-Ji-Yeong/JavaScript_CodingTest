@@ -96,8 +96,15 @@ function solution(numbers) {
 // map 사용
 const solution = (numbers) => numbers.map((number) => number * 2)
 
+40.js "중앙값 구하기"
+function solution(array) {
+  return array.sort((a, b) => a - b)[Math.trunc(array.length / 2)];
+}
+
 ```
 📄[reduce를 정리한 벨로그글](https://velog.io/@yeong6415/arr.reduce-%EB%A9%94%EC%86%8C%EB%93%9C): 23.js 문제
+
+📄[sort 정렬](https://change-words.tistory.com/entry/JavaScript-sortfunctiona-b-return-a-b-%EA%B0%80-%EC%9E%91%EB%8F%99%ED%95%98%EB%8A%94-%EC%9B%90%EB%A6%AC): 40.js 문제
 
 ```javascript
 👉이해력의 문제로 문제가 이해안됨
