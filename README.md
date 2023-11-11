@@ -3,7 +3,7 @@
 
 
 ```javascript
-👉한번 씩 더 봐두면 좋은 코드들(참고)
+👉한번 씩 더 봐두면 좋은 코드들
 
 10.js "문자열 섞기"
 function solution(str1, str2) {
